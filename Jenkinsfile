@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/anilgowda28/git_practise.git'
+                git branch: 'main', url: 'https://github.com/nethrarajesh05/git-pipeline.git'
             }
         }
 
